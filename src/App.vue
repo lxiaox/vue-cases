@@ -1,14 +1,15 @@
 <template>
   <div id="app">
-    <eight-queen></eight-queen>
+    <!-- <eight-queen></eight-queen> -->
+    <resize-demo></resize-demo>
   </div>
 </template>
 
 <script>
-import EightQueen from './components/EightQueen.vue'
+import ResizeDemo from './components/ResizeDemo.vue'
 export default {
   name: 'App',
-  components: { EightQueen },
+  components: { ResizeDemo },
 }
 </script>
 
