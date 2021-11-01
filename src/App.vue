@@ -1,11 +1,14 @@
 <template>
-  <div id="app"></div>
+  <div id="app">
+    <eight-queen></eight-queen>
+  </div>
 </template>
 
 <script>
+import EightQueen from './components/EightQueen.vue'
 export default {
   name: 'App',
-  components: {},
+  components: { EightQueen },
 }
 </script>
 
