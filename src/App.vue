@@ -1,15 +1,16 @@
 <template>
   <div id="app">
     <!-- <eight-queen></eight-queen> -->
-    <resize-demo></resize-demo>
+    <!-- <resize-demo></resize-demo> -->
+    <valite-demo></valite-demo>
   </div>
 </template>
 
 <script>
-import ResizeDemo from './components/ResizeDemo.vue'
+import ValiteDemo from './components/validateReuse/renderless/UseDemo'
 export default {
   name: 'App',
-  components: { ResizeDemo },
+  components: { ValiteDemo },
 }
 </script>
 
